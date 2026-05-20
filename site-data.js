@@ -57,10 +57,10 @@ const portfolioData = {
       demo: "#"
     },
     {
-      name: "Mini Game Project",
+      name: "Jarvis",
       status: "Prototype",
-      description: "A game idea with movement, scoring, and levels that I can keep improving.",
-      tags: ["Scratch", "Game Dev", "Design"],
+      description: "A prototype of a AI assistant inspired by the fictional Jarvis from Iron Man.",
+      tags: ["HTML", "Electron", "AI"],
       github: "https://github.com/shaanmirchandani",
       demo: "#"
     },

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Shaan Mirchandani is a 13-year-old developer building websites, games, and creative coding projects."
+  />
+  <title>Shaan Mirchandani | Young Developer & Creator</title>
+
+  <!-- Edit portfolio content in site-data.js. Edit the design in styles.css. -->
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Shaan Mirchandani home">
+        <span class="brand-mark" data-site="initials" aria-hidden="true">SM</span>
+        <span data-site="name">Shaan Mirchandani</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#learning">Learning</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-site="eyebrow">Personal portfolio</p>
+          <h1 id="hero-title" data-site="name">Shaan Mirchandani</h1>
+          <p class="hero-title-line" data-site="title">Young Developer &amp; Creator</p>
+          <p class="lead" data-site="tagline">
+            I build websites, games, and small tools that turn ideas into something real.
+          </p>
+
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button button-primary" data-site="githubLink" href="https://github.com/shaanmirchandani" target="_blank" rel="noopener noreferrer">
+              View GitHub
+            </a>
+            <a class="button button-secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel reveal" aria-label="Shaan profile summary">
+          <div class="avatar-frame">
+            <img
+              class="avatar"
+              data-site="avatar"
+              alt="Abstract developer avatar for Shaan Mirchandani"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop stop-color='%2338bdf8'/%3E%3Cstop offset='.55' stop-color='%236366f1'/%3E%3Cstop offset='1' stop-color='%23a78bfa'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='500' height='500' rx='42' fill='%23070a12'/%3E%3Ccircle cx='250' cy='196' r='88' fill='url(%23g)'/%3E%3Cpath d='M108 444c25-96 85-145 142-145s117 49 142 145' fill='url(%23g)'/%3E%3Cpath d='M100 108h300v36H100zm44 250h212v24H144z' fill='%23ffffff' opacity='.14'/%3E%3Cpath d='M145 173l-35 35 35 35M355 173l35 35-35 35' fill='none' stroke='%23ffffff' stroke-width='20' stroke-linecap='round' stroke-linejoin='round' opacity='.5'/%3E%3C/svg%3E"
+            />
+          </div>
+
+          <div class="profile-meta">
+            <p class="meta-label">Currently building</p>
+            <p class="meta-value" data-site="currentlyBuilding">Portfolio upgrades + JavaScript experiments</p>
+          </div>
+
+          <div class="stats-grid" data-render="stats" aria-label="Quick stats"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-title">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2 id="about-title" data-site="aboutHeading">A teenage developer learning by building.</h2>
+        </div>
+
+        <div class="about-copy reveal" data-render="about"></div>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-title" data-site="skillsHeading">What I’m practicing.</h2>
+          <p class="section-subtitle" data-site="skillsSubtitle">
+            These levels are placeholders. Update them as your skills grow.
+          </p>
+        </div>
+
+        <div class="skills-grid" data-render="skills"></div>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title" data-site="projectsHeading">Featured work.</h2>
+          <p class="section-subtitle" data-site="projectsSubtitle">
+            Replace these cards with your own projects, screenshots, and links.
+          </p>
+        </div>
+
+        <div class="project-grid" data-render="projects"></div>
+      </div>
+    </section>
+
+    <section class="learning-section" id="learning" aria-labelledby="learning-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Learning</p>
+          <h2 id="learning-title" data-site="learningHeading">What I’m working toward next.</h2>
+        </div>
+
+        <div class="learning-grid" data-render="learning"></div>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title" data-site="contactHeading">Let’s connect.</h2>
+            <p data-site="contactText">
+              I’m open to project ideas, feedback, and friendly messages about coding.
+            </p>
+          </div>
+
+          <div class="contact-actions" data-render="contactLinks" aria-label="Contact links"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p data-site="footerText">Built by Shaan Mirchandani · Age 13 · © 2025</p>
+    </div>
+  </footer>
+
+  <script src="site-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

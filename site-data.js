@@ -17,7 +17,7 @@ const portfolioData = {
   title: "Young Developer & Creator",
   eyebrow: "Personal portfolio",
   tagline: "I’m learning by building websites, games, and small coding projects.",
-  currentlyBuilding: "A real working Jarvis from iron man",
+  currentlyBuilding: "A real working Jarvis from Iron Man",
 
   githubUsername: "shaanmirchandani",
   githubUrl: "https://github.com/shaanmirchandani",
@@ -39,10 +39,10 @@ const portfolioData = {
   skillsHeading: "What I’m practicing.",
   skillsSubtitle: "These levels are placeholders. Update them as your skills grow.",
   skills: [
-    { name: "Python", level: 78 },
-    { name: "HTML/CSS", level: 74 },
-    { name: "JavaScript", level: 66 },
-    { name: "Scratch", level: 82 }
+    { name: "Python", level: 75},
+    { name: "HTML/CSS", level: 70 },
+    { name: "Lua", level: 75 },
+    { name: "Scratch", level: 100 }
   ],
 
   projectsHeading: "Featured work.",
@@ -65,11 +65,11 @@ const portfolioData = {
       demo: "#"
     },
     {
-      name: "Python Tool",
-      status: "Learning",
-      description: "A small script idea for practicing problem solving and automation.",
-      tags: ["Python", "CLI", "Automation"],
-      github: "https://github.com/shaanmirchandani",
+      name: "Gradebook",
+      status: "Programming",
+      description: "A simple gradebook application for tracking and managing student grades.",
+      tags: ["Python", "JavaScript", "Web"],
+      github: "https://github.com/shaanmirchandani/gradebook",
       demo: "#"
     }
   ],
@@ -77,8 +77,8 @@ const portfolioData = {
   learningHeading: "What I’m learning next.",
   learningGoals: [
     {
-      name: "React",
-      description: "Learning components, state, and how modern web apps are organized."
+      name: "Arduino",
+      description: "Exploring hardware programming and building physical projects with sensors and actuators."
     },
     {
       name: "Game Dev",
